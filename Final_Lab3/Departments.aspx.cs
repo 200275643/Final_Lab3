@@ -68,6 +68,7 @@ namespace Final_Lab3
                 // perform the removal in the DB
                 db.Departments.Remove(deletedDepartment);
                 db.SaveChanges();
+            
 
                 // refresh the grid
                 this.GetDepartments();
