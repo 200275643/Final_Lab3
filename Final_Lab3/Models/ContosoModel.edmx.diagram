@@ -8,7 +8,7 @@
         <EntityTypeShape EntityType="ContosoModel.Course" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
         <EntityTypeShape EntityType="ContosoModel.Department" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="ContosoModel.Enrollment" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="ContosoModel.Student" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContosoModel.Student" Width="1.5" PointX="2.625" PointY="3.625" IsExpanded="true" />
         <AssociationConnector Association="ContosoModel.FK_Courses_DepartmentID" ManuallyRouted="false" />
         <AssociationConnector Association="ContosoModel.FK_Enrollments_CourseID" ManuallyRouted="false" />
         <AssociationConnector Association="ContosoModel.FK_Enrollments_StudentID" ManuallyRouted="false" />
